@@ -3,7 +3,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 */
 
 
-.card {
+.flip-card {
     background-color:#fcf8eefd;
     width: 300px;
     height: 490px;
@@ -12,7 +12,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     box-shadow: 3px 3px 4px 2px #33333333;
   }
   
-  .card-inner {
+  .flip-card-inner {
     position: relative;
     width: 100%;
     height: 100%;
@@ -23,11 +23,11 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
-  .card:hover .card-inner {
+  .flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
 
-  .card-front, .card-back {
+  .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -39,7 +39,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   } 
   
   /* Style the back side */
-  .card-back {
+  .flip-card-back {
     color: #7c5a2d;
     transform: rotateY(180deg);
     font-size: .9rem;
@@ -54,7 +54,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     margin: 0 .5rem;
   }
 
-  .card-img {
+  .flip-card-img {
     width: 90%;
     border: 1px groove #775d3b;
   }
