@@ -1,3 +1,42 @@
 .main__logo-container___3uyPh {
     visibility: hidden;
 }
+
+ /* Learn More Page */
+
+ div .col{
+    padding: 5px;
+  }
+  
+  .card{
+    border: none;
+    background-color: #A16EE7;
+    color: #fff;
+    
+  }
+  .card-link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .card-link:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 20%;
+    padding: unset;
+    padding-left: 30px;
+    padding-top: 20px;
+    }
+    .fas{
+      padding-left: 10px;
+    }
+    
+    .card-icon{
+      padding-left: 30px;
+      padding-top: 30px;
+      font-size: 30px;
+    }
