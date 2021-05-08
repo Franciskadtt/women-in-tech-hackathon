@@ -2,12 +2,13 @@
 https://www.w3schools.com/howto/howto_css_flip_card.asp
 */
 
+
 .card {
     background-color: transparent;
     width: 300px;
-    height: 450px;
-    border: 1px solid #636262;
-    border-radius: 8px;
+    height: 480px;
+    border: 1px solid #acaaaa;
+    border-radius: 5px;
   }
   
   .card-inner {
