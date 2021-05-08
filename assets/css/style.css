@@ -8,35 +8,28 @@
     padding: 5px;
   }
   
-  .card{
+  .card-learn{
     border: none;
     background-color: #A16EE7;
     color: #fff;
     
   }
-  .card-link {
+  .learn-card-link {
     text-decoration: none;
     color: #fff;
   }
 
-  .card-link:hover {
+  .learn-card-link:hover {
     text-decoration: none;
     color: #fff;
   }
-
-  .avatar {
-    vertical-align: middle;
-    width: 20%;
-    padding: unset;
-    padding-left: 30px;
-    padding-top: 20px;
-    }
-    .fas{
+  
+  .learn-more-icon{
       padding-left: 10px;
-    }
+  }
     
-    .card-icon{
+  .learn-card-icon{
       padding-left: 30px;
       padding-top: 30px;
       font-size: 30px;
-    }
+  }
