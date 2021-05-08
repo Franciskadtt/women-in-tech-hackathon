@@ -1,6 +1,19 @@
+/* General*/
+
+body{
+  font-family: 'Nunito', sans-serif;;
+}
+
 /* Home Page*/
 
+h1{
+  color: #2B1C63;
+  font-weight: 700;
+}
 
+h2 p{
+  color: #424242;
+}
 
 
 /* Code for flip-card effect adapted from:
