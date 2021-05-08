@@ -1,3 +1,65 @@
+
+/* Code for flip-card effect adapted from:
+https://www.w3schools.com/howto/howto_css_flip_card.asp
+*/
+
+
+.flip-card {
+    background-color:#fcf8eefd;
+    width: 300px;
+    height: 490px;
+    border: 1px groove #d8d6d6;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px 2px #33333333;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    background-color: rgba(253, 244, 212, 0.993);
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    background-color: #f8f1dcfd;
+    border: 1.8px double #f3dc9d;
+    border-radius: 6px;
+  } 
+  
+  /* Style the back side */
+  .flip-card-back {
+    color: #7c5a2d;
+    transform: rotateY(180deg);
+    font-size: .9rem;
+    padding: .5rem;
+  }
+
+  .front-text {
+    border: 2px inset #aa7f47;
+    padding: 6% 0 4%;
+    border-radius: 3px;
+    background-color: rgb(255, 251, 241);
+    margin: 0 .5rem;
+  }
+
+  .flip-card-img {
+    width: 90%;
+    border: 1px groove #775d3b;
+  }
+
 .main__logo-container___3uyPh {
     visibility: hidden;
 }
