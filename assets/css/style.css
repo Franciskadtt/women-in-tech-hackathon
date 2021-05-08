@@ -87,6 +87,9 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     padding: 5px;
   }
   
+  
+  
+
   .card-learn{
     border: none;
     background-color: #2B1C63;
@@ -120,6 +123,8 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
       font-size: 30px;
   }
 
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
   .resources-intro{
     padding-top: 60px;
   }
@@ -136,3 +141,4 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     padding-top: 80px;
     
   }
+}
