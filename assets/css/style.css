@@ -105,7 +105,6 @@ li.active > a {
   padding: 20px;
   margin-top: 100px;
   font-weight: 700;
-  
 }
 
 .intro-btn:hover{
@@ -356,6 +355,24 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     margin-bottom: 80px;
      -webkit-box-shadow: 3px 3px 4px 2px #33333333;
             box-shadow: 3px 3px 4px 2px #33333333;
+}
+/* -------------------- Form section */
+#form h2 {
+    text-align: center;
+    color: #57039D;
+    font-weight: 700;
+}
+.submit-button {
+  background-color: #9CF23C;
+  color: #000000;
+  border-radius: 20px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px;
+}
+
+.submit-button:hover{
+  background-color: #DE786F;
 }
 
  /* -------------------- Resources Page*/
