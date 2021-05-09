@@ -441,6 +441,13 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 .form-label {
     color: #DE786F;
 }
+
+.text-input:hover {
+    border-color: #57039D;
+     -webkit-box-shadow: 3px 3px 4px 2px #33333333;
+    box-shadow: 3px 3px 4px 2px #33333333;
+}
+
 /* -------------------- Resources Page*/
 
 div .col {
