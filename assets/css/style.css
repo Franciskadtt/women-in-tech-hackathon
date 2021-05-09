@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /* General*/
 
 body{
@@ -88,7 +95,8 @@ https://codepen.io/Founts/pen/gmhcl */
 	height: auto;
 	background-color: #f8eed5fd;
   padding: 2rem;
-  filter: drop-shadow(4px 6px 4px #a8a8aa);
+  -webkit-filter: drop-shadow(4px 6px 4px #a8a8aa);
+          filter: drop-shadow(4px 6px 4px #a8a8aa);
 }
 
 .round{
@@ -135,7 +143,8 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     height: 490px;
     border: 1px groove #d8d6d6;
     border-radius: 5px;
-    box-shadow: 3px 3px 4px 2px #33333333;
+    -webkit-box-shadow: 3px 3px 4px 2px #33333333;
+            box-shadow: 3px 3px 4px 2px #33333333;
   }
   
   .flip-card-inner {
@@ -143,14 +152,20 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     width: 100%;
     height: 100%;
     text-align: center;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    -o-transition: transform 0.8s;
     transition: transform 0.8s;
-    transform-style: preserve-3d;
+    transition: transform 0.8s, -webkit-transform 0.8s;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
     background-color: #fdf4d4fd;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
   }
 
   .flip-card-front, .flip-card-back {
@@ -167,7 +182,8 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   /* Style the back side */
   .flip-card-back {
     color: #7c5a2d;
-    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
     font-size: .9rem;
     padding: .5rem;
   }
