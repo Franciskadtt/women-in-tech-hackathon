@@ -11,7 +11,7 @@ body{
   font-family: 'Nunito', sans-serif;;
 }
 
-/* Home Page*/
+/* --------------------------------- Home Page*/
 
 h1{
   color: #2B1C63;
@@ -39,6 +39,11 @@ background-color: transparent;
   color: white;
   font-weight: 800;
 
+}
+
+.logo{
+  font-weight: 800;
+  padding-left:10px;
 }
 
 .navhome a{
@@ -82,6 +87,13 @@ background-color: transparent;
 
 .rolemodels-img {
   width: 80%;
+}
+
+.rolemodels-info {
+  text-align: left;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #5e5d5d;
 }
 
 /* Code for talk bubble adapted from:
@@ -211,9 +223,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     padding: 5px;
   }
   
-  
-  
-
   .card-learn{
     border: none;
     background-color: #2B1C63;
