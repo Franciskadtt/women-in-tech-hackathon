@@ -91,6 +91,12 @@ li.active > a {
   background-repeat: no-repeat, no-repeat;
   min-width: 100vw;
 }
+<<<<<<< HEAD
+.landing-img{
+  width: 100%;
+}
+=======
+>>>>>>> 7b0986f38c527a6b61780f6ef53efdc78172f65e
 
 .landing-row{
   padding-top: 15%;
