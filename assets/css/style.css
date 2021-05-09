@@ -320,6 +320,26 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   }
 }
 
+.circle {
+  width: 50px;
+  height: 50px;
+  background: #9CF23C;
+  border-radius: 50%;
+  float: right;
+  margin-right: -35px;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  float: right;
+  margin-right: -35px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #9CF23C;
+  
+}
+
 /* Challenges page */
 #challenge-img {
   background-image: url("../images/web-design.png");
@@ -327,3 +347,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   background-position: center top;
   background-size: contain;
 }
+
+
+
