@@ -57,6 +57,13 @@ background-color: transparent;
   font-size:30px;
 }
 
+.intro-btn{
+  background-color: #0dcaf0;
+}
+
+.intro-btn:hover{
+  background-color: #0dcaf0;
+}
 
 /*----------- Role models section */
 
