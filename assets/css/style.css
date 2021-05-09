@@ -218,10 +218,12 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 }
 /* -------------------- Footer*/
 #footer{
-    margin: 30px;
+    background-color: #57039D;
+    padding: 40px;
 }
 #footer h2 {
     padding-bottom: 20px;
+    color: #DE786F;
 }
 .github-links li {
     display: inline;
