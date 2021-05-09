@@ -5,13 +5,11 @@
 * Browsers: last 4 version
 */
 
-/* General*/
+/* --------------------------------- General*/
 
 body{
   font-family: 'Nunito', sans-serif;
 }
-
-/* --------------------------------- Home Page*/
 
 h1{
   color: #2B1C63;
@@ -22,14 +20,7 @@ h2 p{
   color: #424242;
 }
 
-
-.landing{
-  min-height: 100vh;
-  background-color: #57039D;
-  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
-  background-repeat: no-repeat, no-repeat;
-  min-width: 100vw;
-}
+/* ---------------------------------- Navbar */
 
 .navbar{
 background-color: transparent;
@@ -50,11 +41,25 @@ background-color: transparent;
 li.active > a {
   border-bottom: 3px solid white;
 }
+
+
+/* Logo */
 .logo{
   font-weight: 800;
-  padding-left:50px;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* Logo For desktop: */
+.logo{
+  font-weight: 800;
+  padding-left: 50px;
   font-size: 36px;
   padding-top: 20px;
+}
 }
 
 .logo:hover{
@@ -66,6 +71,16 @@ li.active > a {
   font-size: 20px;
 }
 
+/* Navbar toggler */
+/* orginal code with modifications from https://www.codeply.com/go/4FdZGlPMNV/bootstrap-4-custom-navbar-toggler-icon-color */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
 .home-heading{
   color: white;
   font-size: 80px;
@@ -75,9 +90,20 @@ li.active > a {
   color: #57039D;
 }
 
+/* --------------------------------- Home Page*/
+
+/* Landing section Layout */
+.landing{
+  min-height: 100vh;
+  background-color: #57039D;
+  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
+  background-repeat: no-repeat, no-repeat;
+  min-width: 100vw;
+}
 .landing-img{
   width: 100%;
 }
+
 
 .landing-row{
   padding-top: 15%;
