@@ -34,6 +34,9 @@ h2 p{
 .navbar{
 background-color: transparent;
 }
+.navbar-color {
+    background-color: #57039D;
+}
 
 .navbar-brand{
   color: white;
@@ -44,21 +47,21 @@ background-color: transparent;
   color: #DE786F;
 }
 
-li.active-home > a {
+li.active > a {
   border-bottom: 3px solid white;
 }
 
-li.active > a {
-  border-bottom: 3px solid #57039D;
-}
 
 .logo{
   font-weight: 800;
-  padding-left:10px;
+  padding-left:50px;
+  font-size: 36px;
+  padding-top: 20px;
 }
 
 .navhome a{
   color: white;
+  font-size: 20px;
 }
 
 .home-heading{
@@ -422,7 +425,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 50px solid #9CF23C;
-  
 }
 
 /* Challenges page */
