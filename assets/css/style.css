@@ -28,6 +28,13 @@ h2 p{
   width: 80%;
 }
 
+.rolemodels-info {
+  text-align: left;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #5e5d5d;
+}
+
 /* Code for talk bubble adapted from:
 https://codepen.io/Founts/pen/gmhcl */
 
