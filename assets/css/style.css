@@ -64,7 +64,10 @@ li.active > a {
 .home-heading{
   color: white;
   font-size: 80px;
- 
+}
+
+.nav-link{
+  color: #57039D;
 }
 
 .landing-img{
