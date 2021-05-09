@@ -87,12 +87,15 @@ li.active>a {
 /* --------------------------------- Home Page*/
 
 /* Landing section Layout */
+
+
 .landing {
     min-height: 100vh;
     background-color: #57039D;
     background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
     background-repeat: no-repeat, no-repeat;
     min-width: 100vw;
+
 }
 
 .landing-row {
