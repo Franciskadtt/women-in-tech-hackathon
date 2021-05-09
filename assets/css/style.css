@@ -40,6 +40,17 @@ background-color: transparent;
   font-weight: 800;
 
 }
+.nav > li > a:hover{
+  color: #DE786F;
+}
+
+li.active-home > a {
+  border-bottom: 3px solid white;
+}
+
+li.active > a {
+  border-bottom: 3px solid #57039D;
+}
 
 .logo{
   font-weight: 800;
