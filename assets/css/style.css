@@ -50,8 +50,6 @@ background-color: transparent;
 li.active > a {
   border-bottom: 3px solid white;
 }
-
-
 .logo{
   font-weight: 800;
   padding-left:50px;
