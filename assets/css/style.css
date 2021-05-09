@@ -15,6 +15,58 @@ h2 p{
   color: #424242;
 }
 
+/*----------- Role models section */
+
+.rolemodels-img {
+  width: 80%;
+}
+
+/* Code for talk bubble adapted from:
+https://codepen.io/Founts/pen/gmhcl */
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 90%;
+	height: auto;
+	background-color: #f8eed5fd;
+  padding: 2rem;
+  filter: drop-shadow(4px 6px 4px #a8a8aa);
+}
+
+.round{
+  border-radius: 70px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+  border: 1.5px solid #f3dc9d;
+
+}
+
+.tri-right.border.right-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: 200px;
+  bottom: auto;
+  border: 20px solid #f3dc9d;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 222px;
+  bottom: auto;
+  border: 12px solid #f3dc9d;
+  border-color: transparent transparent #f8eed5fd #f8eed5fd  ;
+}
 
 /* Code for flip-card effect adapted from:
 https://www.w3schools.com/howto/howto_css_flip_card.asp
@@ -37,7 +89,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    background-color: rgba(253, 244, 212, 0.993);
+    background-color: #fdf4d4fd;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -121,6 +173,12 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
       padding-left: 30px;
       padding-top: 30px;
       font-size: 30px;
+  }
+
+  @media only screen and (min-width: 576px) {
+    .rolemodels-img {
+      width: 60%;
+    }
   }
 
   @media only screen and (min-width: 768px) {
