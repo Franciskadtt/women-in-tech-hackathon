@@ -64,7 +64,10 @@ li.active > a {
 .home-heading{
   color: white;
   font-size: 80px;
- 
+}
+
+.nav-link{
+  color: #57039D;
 }
 
 .landing-img{
@@ -309,8 +312,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 /* -------------------- Footer*/
 #footer{
     background-color: #57039D;
-    padding: 60px;
-}
 #footer h2 {
     padding-bottom: 20px;
     color: white;
