@@ -11,7 +11,7 @@ body{
   font-family: 'Nunito', sans-serif;;
 }
 
-/* Home Page*/
+/* --------------------------------- Home Page*/
 
 h1{
   color: #2B1C63;
@@ -211,9 +211,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     padding: 5px;
   }
   
-  
-  
-
   .card-learn{
     border: none;
     background-color: #2B1C63;
