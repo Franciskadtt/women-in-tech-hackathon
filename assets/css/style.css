@@ -49,12 +49,13 @@ li.active>a {
     font-weight: 800;
     padding-left: 10px;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 @media only screen and (min-width: 768px) {
 
-    /* Logo For desktop: */
+/* Logo For desktop: */
     .logo {
         padding-left: 50px;
         font-size: 36px;
@@ -196,7 +197,6 @@ https://codepen.io/Founts/pen/gmhcl */
     border-radius: 70px;
     -webkit-border-radius: 60px;
     -moz-border-radius: 60px;
-
 }
 
 .tri-right.border.right-in:before {
@@ -231,7 +231,6 @@ https://codepen.io/Founts/pen/gmhcl */
 
 /* right bounce */
 @-webkit-keyframes bounceRight {
-
     0%,
     20%,
     50%,
@@ -272,7 +271,6 @@ https://codepen.io/Founts/pen/gmhcl */
 }
 
 @keyframes bounceRight {
-
     0%,
     20%,
     50%,
@@ -343,7 +341,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     /* Safari */
     backface-visibility: hidden;
     background-color: #f8f1dcfd;
-
     border-radius: 6px;
 }
 
@@ -357,7 +354,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 }
 
 .front-text {
-
     padding: 6% 0 4%;
     border-radius: 20px;
     margin: 0 .5rem;
@@ -502,7 +498,6 @@ div .col {
         float: right;
         margin-left: 70%;
         margin-bottom: 50px;
-
     }
 
     .subheading-resources {
