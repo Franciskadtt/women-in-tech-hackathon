@@ -126,17 +126,26 @@ https://codepen.io/Founts/pen/gmhcl */
   position: relative;
 	width: 90%;
 	height: auto;
-	background-color: #f8eed5fd;
+	background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 2rem;
   -webkit-filter: drop-shadow(4px 6px 4px #a8a8aa);
           filter: drop-shadow(4px 6px 4px #a8a8aa);
 }
 
+.rolemodel-p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: start;
+  font-size: 20px;
+  color: #424242;
+}
+
+
 .round{
   border-radius: 70px;
 	-webkit-border-radius: 60px;
 	-moz-border-radius: 60px;
-  border: 1.5px solid #f3dc9d;
 
 }
 
@@ -149,8 +158,8 @@ https://codepen.io/Founts/pen/gmhcl */
   right: -40px;
   top: 200px;
   bottom: auto;
-  border: 20px solid #f3dc9d;
-  border-color: #666 transparent transparent #666;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .tri-right.right-in:after {
   content: " ";
@@ -161,8 +170,9 @@ https://codepen.io/Founts/pen/gmhcl */
   right: -20px;
   top: 222px;
   bottom: auto;
-  border: 12px solid #f3dc9d;
-  border-color: transparent transparent #f8eed5fd #f8eed5fd  ;
+  border: 12px solid #fff;
+  border-radius: 20%;
+  border-color: transparent transparent #fff #fff  ;
 }
 
 /* Code for flip-card effect adapted from:
