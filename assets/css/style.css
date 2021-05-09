@@ -400,9 +400,9 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     height: 200px;
 }
 
-#mentor-section h2 {
+#mentor-section h1 {
     font-weight: 700;
-    color: #57039D;
+    color: #2B1C63;
     padding: 40px 0;
     font-size: 46px;
 }
@@ -424,8 +424,10 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 /* -------------------- Form section */
 #form h2 {
     text-align: center;
-    color: #57039D;
+    color: #2B1C63;
     font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
 }
 .submit-button {
     background-color: #9CF23C;
