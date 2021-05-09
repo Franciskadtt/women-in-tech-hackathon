@@ -15,6 +15,49 @@ h2 p{
   color: #424242;
 }
 
+
+.landing{
+  min-height: 100vh;
+  background-color: #57039D;
+  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
+  background-repeat: no-repeat, no-repeat;
+  min-width: 100vw;
+}
+
+.navbar{
+background-color: transparent;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: 800;
+
+}
+
+.navhome a{
+  color: white;
+}
+
+.home-heading{
+  color: white;
+  font-size: 80px;
+ 
+}
+
+.landing-img{
+  width: 100%;
+}
+
+.landing-row{
+  padding-top: 15%;
+}
+
+.home-intro{
+  color: white;
+  font-size:30px;
+}
+
+
 /*----------- Role models section */
 
 .rolemodels-img {
