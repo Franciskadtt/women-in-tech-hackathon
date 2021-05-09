@@ -41,6 +41,11 @@ background-color: transparent;
 
 }
 
+.logo{
+  font-weight: 800;
+  padding-left:10px;
+}
+
 .navhome a{
   color: white;
 }
