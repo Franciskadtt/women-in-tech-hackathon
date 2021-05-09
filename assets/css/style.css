@@ -57,6 +57,10 @@ li.active > a {
   padding-top: 20px;
 }
 
+.logo:hover{
+  color: #DE786F;
+}
+
 .navhome a{
   color: white;
   font-size: 20px;
@@ -82,6 +86,14 @@ li.active > a {
 .home-intro{
   color: white;
   font-size:30px;
+  padding-top: 30px;
+}
+
+.intro-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
 }
 
 .intro-btn{
@@ -89,9 +101,11 @@ li.active > a {
   color: #000000;
   border-radius: 30px;
   padding-left: 30px;
-  padding-right: 30px;;
-  margin-top: 50px;
+  padding-right: 30px;
+  padding: 20px;
+  margin-top: 100px;
   font-weight: 700;
+  
 }
 
 .intro-btn:hover{
@@ -106,6 +120,16 @@ li.active > a {
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 50px solid #9CF23C;
+}
+
+.arrow {
+  color: #ffffff;
+  font-size: 50px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  left: 51%;
+  margin-left: -25px;
 }
 
 /*----------- Role models section */
