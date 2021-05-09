@@ -42,7 +42,6 @@ li.active > a {
   border-bottom: 3px solid white;
 }
 
-
 /* Logo */
 .logo{
   font-weight: 800;
@@ -51,15 +50,12 @@ li.active > a {
   padding-top: 20px;
 }
 
-
 @media only screen and (min-width: 768px) {
   /* Logo For desktop: */
 .logo{
-  font-weight: 800;
   padding-left: 50px;
   font-size: 36px;
-  padding-top: 20px;
-}
+  }
 }
 
 .logo:hover{
@@ -81,11 +77,6 @@ li.active > a {
   border-color: white;
 }
 
-.home-heading{
-  color: white;
-  font-size: 80px;
-}
-
 .nav-link{
   color: #57039D;
 }
@@ -100,44 +91,55 @@ li.active > a {
   background-repeat: no-repeat, no-repeat;
   min-width: 100vw;
 }
-.landing-img{
-  width: 100%;
-}
-
 
 .landing-row{
   padding-top: 15%;
 }
 
+/* Landing page Main heading */
+.home-heading{
+  color: white;
+  font-size: 45px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* Logo For desktop: */
+  .home-heading{
+    font-size: 80px;
+  }
+}
+
 .home-intro{
   color: white;
-  font-size:30px;
-  padding-top: 30px;
+  font-size: 20px;
+  padding-top: 18px;
 }
 
-.intro-btn-div{
-  display: flex;
+@media only screen and (min-width: 768px) {
+  /* Logo For desktop: */
+  .home-intro{
+    font-size: 30px;
+  }
+}
+
+/* Landing page main Image */
+.landing-img{
+  width: 100%;
+}
+/* Arrow landing page*/
+
+.hero-arrow{
+  padding-top: 200px;
+}
+
+.arrow {
+  color: #ffffff;
+  font-size: 40px;
+  cursor: pointer;
   justify-content: center;
-  align-items: center;
-  height: 200px;
 }
 
-.intro-btn{
-  background-color: #9CF23C;
-  color: #000000;
-  border-radius: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding: 20px;
-  margin-top: 100px;
-  font-weight: 700;
-  
-}
-
-.intro-btn:hover{
-  background-color: #DE786F;
-}
-
+/* Custom shape style */
 .triangle-home {
   width: 0;
   height: 0;
@@ -146,16 +148,6 @@ li.active > a {
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-bottom: 50px solid #9CF23C;
-}
-
-.arrow {
-  color: #ffffff;
-  font-size: 50px;
-  cursor: pointer;
-  position: absolute;
-  bottom: 50px;
-  left: 51%;
-  margin-left: -25px;
 }
 
 /*----------- Role models section */
@@ -360,6 +352,31 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 .main__logo-container___3uyPh {
     visibility: hidden;
 }
+
+/* Challenge Button Home page*/
+.intro-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.intro-btn{
+  background-color: #9CF23C;
+  color: #000000;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding: 20px;
+  margin-top: 100px;
+  font-weight: 700;
+  
+}
+
+.intro-btn:hover{
+  background-color: #DE786F;
+}
+
 /* -------------------- Mentors Page*/
 .mentor-avatar {
     width: 200px;
