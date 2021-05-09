@@ -1,3 +1,115 @@
+/* General*/
+
+body{
+  font-family: 'Nunito', sans-serif;;
+}
+
+/* Home Page*/
+
+h1{
+  color: #2B1C63;
+  font-weight: 700;
+}
+
+h2 p{
+  color: #424242;
+}
+
+
+.landing{
+  min-height: 100vh;
+  background-color: #57039D;
+  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
+  background-repeat: no-repeat, no-repeat;
+  min-width: 100vw;
+}
+
+.navbar{
+background-color: transparent;
+}
+
+.navbar-brand{
+  color: white;
+  font-weight: 800;
+
+}
+
+.navhome a{
+  color: white;
+}
+
+.home-heading{
+  color: white;
+  font-size: 80px;
+ 
+}
+
+.landing-img{
+  width: 100%;
+}
+
+.landing-row{
+  padding-top: 15%;
+}
+
+.home-intro{
+  color: white;
+  font-size:30px;
+}
+
+
+/*----------- Role models section */
+
+.rolemodels-img {
+  width: 80%;
+}
+
+/* Code for talk bubble adapted from:
+https://codepen.io/Founts/pen/gmhcl */
+
+.talk-bubble {
+	margin: 40px;
+  display: inline-block;
+  position: relative;
+	width: 90%;
+	height: auto;
+	background-color: #f8eed5fd;
+  padding: 2rem;
+  filter: drop-shadow(4px 6px 4px #a8a8aa);
+}
+
+.round{
+  border-radius: 70px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+  border: 1.5px solid #f3dc9d;
+
+}
+
+.tri-right.border.right-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -40px;
+  top: 200px;
+  bottom: auto;
+  border: 20px solid #f3dc9d;
+  border-color: #666 transparent transparent #666;
+}
+.tri-right.right-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: auto;
+  right: -20px;
+  top: 222px;
+  bottom: auto;
+  border: 12px solid #f3dc9d;
+  border-color: transparent transparent #f8eed5fd #f8eed5fd  ;
+}
 
 /* Code for flip-card effect adapted from:
 https://www.w3schools.com/howto/howto_css_flip_card.asp
@@ -20,7 +132,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     text-align: center;
     transition: transform 0.8s;
     transform-style: preserve-3d;
-    background-color: rgba(253, 244, 212, 0.993);
+    background-color: #fdf4d4fd;
   }
   
   /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -64,21 +176,31 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     visibility: hidden;
 }
 
- /* Learn More Page */
+ /* -------------------- Resources Page*/
 
  div .col{
     padding: 5px;
   }
   
+  
+  
+
   .card-learn{
     border: none;
-    background-color: #A16EE7;
+    background-color: #2B1C63;
     color: #fff;
+    border-radius: 20px;
     
   }
+
+  .learn-card-title{
+    color: #DE786F;
+    font-weight:800;
+  }
+
   .learn-card-link {
     text-decoration: none;
-    color: #fff;
+    color: #9CF23C;
   }
 
   .learn-card-link:hover {
@@ -95,3 +217,29 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
       padding-top: 30px;
       font-size: 30px;
   }
+
+  @media only screen and (min-width: 576px) {
+    .rolemodels-img {
+      width: 60%;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+  .resources-intro{
+    padding-top: 60px;
+  }
+
+  #learn-img{
+    max-width: 70%;
+    float: right;
+    margin-left: 70%;
+    margin-bottom: 50px;
+
+  }
+
+  .subheading-resources{
+    padding-top: 80px;
+    
+  }
+}
