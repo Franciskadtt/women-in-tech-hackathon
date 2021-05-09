@@ -59,10 +59,16 @@ background-color: transparent;
 
 .intro-btn{
   background-color: #0dcaf0;
+  color: #000000;
+  border-radius: 30px;
+  padding-left: 30px;
+  padding-right: 30px;;
+  margin-top: 50px;
+  font-weight: 700;
 }
 
 .intro-btn:hover{
-  background-color: #0dcaf0;
+  background-color: #DE786F;
 }
 
 /*----------- Role models section */
