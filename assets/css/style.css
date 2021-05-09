@@ -5,13 +5,11 @@
 * Browsers: last 4 version
 */
 
-/* General*/
+/* --------------------------------- General*/
 
 body{
   font-family: 'Nunito', sans-serif;
 }
-
-/* --------------------------------- Home Page*/
 
 h1{
   color: #2B1C63;
@@ -22,14 +20,7 @@ h2 p{
   color: #424242;
 }
 
-
-.landing{
-  min-height: 100vh;
-  background-color: #57039D;
-  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
-  background-repeat: no-repeat, no-repeat;
-  min-width: 100vw;
-}
+/* ---------------------------------- Navbar */
 
 .navbar{
 background-color: transparent;
@@ -50,11 +41,25 @@ background-color: transparent;
 li.active > a {
   border-bottom: 3px solid white;
 }
+
+
+/* Logo */
 .logo{
   font-weight: 800;
-  padding-left:50px;
+  padding-left: 10px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* Logo For desktop: */
+.logo{
+  font-weight: 800;
+  padding-left: 50px;
   font-size: 36px;
   padding-top: 20px;
+}
 }
 
 .logo:hover{
@@ -85,9 +90,20 @@ li.active > a {
   color: #57039D;
 }
 
+/* --------------------------------- Home Page*/
+
+/* Landing section Layout */
+.landing{
+  min-height: 100vh;
+  background-color: #57039D;
+  background-position: bottom 60vh right 60vw, bottom 50vh left 60vw;
+  background-repeat: no-repeat, no-repeat;
+  min-width: 100vw;
+}
 .landing-img{
   width: 100%;
 }
+
 
 .landing-row{
   padding-top: 15%;
