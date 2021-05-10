@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -88,6 +89,10 @@ li.active>a {
 /* --------------------------------- Home Page*/
 
 /* Landing section Layout */
+
+.landing-img{
+    width: 100%;
+}
 
 
 .landing {
