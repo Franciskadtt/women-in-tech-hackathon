@@ -157,6 +157,14 @@ li.active>a {
 
 /*----------- Role models section */
 
+#rolemodel-section{
+    font-weight: 700;
+    color: #2B1C63;
+    padding: 40px 0;
+    font-size: 46px;
+}
+
+
 .rolemodels-img {
     width: 80%;
 }
