@@ -479,6 +479,13 @@ div .col {
     padding: 5px;
 }
 
+#resource-section h1 {
+    font-weight: 700;
+    color: #2B1C63;
+    padding: 40px 0;
+    font-size: 46px;
+}
+
 .card-learn {
     border: none;
     background-color: #2B1C63;
@@ -557,12 +564,71 @@ div .col {
     border-bottom: 50px solid #9CF23C;
 }
 
-/* Challenges page */
+/* ---------------------- Challenges page */
 #challenge-img {
     background-image: url("../images/web-design.png");
     background-repeat: no-repeat;
     background-position: center top;
     background-size: contain;
+}
+
+#challenge-section h1 {
+    font-weight: 700;
+    color: #2B1C63;
+    padding: 40px 0;
+    font-size: 46px;
+}
+#quiz h2 {
+    text-align: center;
+    color: #2B1C63;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.quiz-h {
+    margin-top: 100px;;
+    text-align: center;
+    color: #2B1C63;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.challenge-p{
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: start;
+    margin-bottom: 80px;
+}
+
+.challenge-mentor{
+    text-align: center;
+    color: #2B1C63;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.challenge-btn-mentors-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+}
+
+.challenge-btn-mentors{
+    background-color: #9CF23C;
+    color: #000000;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+.challenge-btn-mentors:hover {
+    background-color: #DE786F;
 }
 
 /* -------------------- Footer*/
