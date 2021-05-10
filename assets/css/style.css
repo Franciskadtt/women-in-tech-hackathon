@@ -165,8 +165,9 @@ li.active>a {
 #rolemodel-section{
     font-weight: 700;
     color: #2B1C63;
-    padding: 40px 0;
+    padding: 40px 0px 0px 50px;
     font-size: 46px;
+    
 }
 
 
@@ -381,7 +382,12 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
 .main__logo-container___3uyPh {
     visibility: hidden;
 }
-
+@media only screen and (max-width: 768px) {
+    .flip-card {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
 /* Challenge Button Home page*/
 .intro-btn-div {
     display: flex;
@@ -397,7 +403,6 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     padding-left: 30px;
     padding-right: 30px;
     padding: 20px;
-    margin-top: 100px;
     font-weight: 700;
 }
 
