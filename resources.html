@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
     <meta name="description" content="Empower young gils to enter the coding world">
     <meta name="keywords" content="Coding, Girls, Sotware development, women coders, women in technology">
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/png" href="#">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- Fontawesome Icons -->
@@ -27,10 +28,10 @@
         <!-- Navbar -->
         <nav class="navbar navbar-color navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand logo" href="index.html">Coding Sisters</a>
-                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <a class="navbar-brand logo" href="index.html">
+                    Coding Sisters
+                </a>
+                <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
@@ -52,96 +53,84 @@
             </div>
         </nav>
     </header>
-    <main class="container my-5">
-        <h1>Resources</h1>
-
-        <div class="circle"></div>
-
-        <div class="row resources-intro">
-            <div class="col-12 col-lg-6">
-                <p class="lead subheading-resources"> Now that you have tried the challenge, here are some great
-                    <strong>
-                        resources </strong> to learn more about coding! From courses, clubs and challenges, these are
-                    just some of
-                    the resources we think you should check out.
-                </p>
-                <div class="triangle"></div>
+    <main id="resource-section" class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="quiz">Resources</h1>
             </div>
-            <div class="col-12 col-lg-6">
-                <a><img class="img-fluid z-depth-1 " id="learn-img" src="assets/images/plan.png" alt="video"
-                        data-toggle="modal" data-target="#modal1"></a>
-            </div>
+            <div class="circle"></div>
         </div>
-
-
-
-        <!-- Cards -->
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <!-- Card 1 -->
-            <div class="col hvr-wobble-vertical">
-                <div class="card card-learn">
-                    <i class="far fa-bookmark learn-card-icon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title learn-card-title">Girls Who Code</h5>
-                        <p class="card-text">Girls Who Code is an organization that values diversity, equity, and
-                            inclusion as
-                            essential to their mission. They have courses and clubs for coding.</p>
-                        <a href="https://girlswhocode.com/" class="learn-card-link hvr-icon-forward" target="_blank"
-                            rel="noopener noreferrer">
-                            Learn More
-                            <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
-                        </a>
-                    </div>
+            <div class="row resources-intro">
+                <div class="col-12 col-lg-6">
+                    <p class="lead"> Now that you have tried the challenge, here are some great <strong>resources </strong> to learn more about coding! From courses, clubs and challenges, these are just some of the resources we think you should check out.
+                    </p>
+                    <div class="triangle"></div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid z-depth-1 " id="learn-img" src="assets/images/plan.png" alt="learning">
                 </div>
             </div>
-            <!-- Card 2 -->
-            <div class="col hvr-wobble-vertical">
-                <div class="card card-learn">
-                    <i class="far fa-bookmark learn-card-icon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title learn-card-title">TechGirlz</h5>
-                        <p class="card-text">TechGirlz’ mission is to inspire middle school girls to explore the
-                            possibilities of
-                            technology to empower their future careers.</p>
-                        <a href="https://www.techgirlz.org/" class="learn-card-link hvr-icon-forward" target="_blank"
-                            rel="noopener noreferrer">
-                            Learn More
-                            <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
-                        </a>
+            <!-- Cards -->
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                <!-- Card 1 -->
+                <div class="col hvr-wobble-vertical">
+                    <div class="card card-learn">
+                        <i class="far fa-bookmark learn-card-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title learn-card-title">Girls Who Code</h5>
+                            <p class="card-text">Girls Who Code is an organization that values diversity, equity, and inclusion as essential to their mission. They have courses and clubs for coding.</p>
+                            <a href="https://girlswhocode.com/" class="learn-card-link hvr-icon-forward" target="_blank"
+                                rel="noopener noreferrer">
+                                Learn More
+                                <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Card 3 -->
-            <div class="col hvr-wobble-vertical">
-                <div class="card card-learn">
-                    <i class="far fa-bookmark learn-card-icon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title learn-card-title">Tynker</h5>
-                        <p class="card-text">Their interactive story-based learning allows kids to learn the basics with
-                            easy
-                            block-based coding challenges before transitioning to real-world text-based languages.</p>
-                        <a href="https://www.tynker.com/" class="learn-card-link hvr-icon-forward" target="_blank"
-                            rel="noopener noreferrer">
-                            Learn More
-                            <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
-                        </a>
+                <!-- Card 2 -->
+                <div class="col hvr-wobble-vertical">
+                    <div class="card card-learn">
+                        <i class="far fa-bookmark learn-card-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title learn-card-title">TechGirlz</h5>
+                            <p class="card-text">TechGirlz’ mission is to inspire middle school girls to explore the possibilities of technology to empower their future careers.</p>
+                            <a href="https://www.techgirlz.org/" class="learn-card-link hvr-icon-forward"
+                                target="_blank" rel="noopener noreferrer">
+                                Learn More
+                                <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="col hvr-wobble-vertical">
-                <div class="card card-learn ">
-                    <i class="far fa-bookmark learn-card-icon"></i>
-                    <div class="card-body">
-                        <h5 class="card-title learn-card-title ">CodeMonkey</h5>
-                        <p class="card-text">CodeMonkey is a fun and educational game-based environment where kids learn
-                            to code
-                            without any prior experience.</p>
-                        <a href="https://www.codemonkey.com/" class="learn-card-link hvr-icon-forward" target="_blank"
-                            rel="noopener noreferrer">
-                            Learn More
-                            <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
-                        </a>
+                <!-- Card 3 -->
+                <div class="col hvr-wobble-vertical">
+                    <div class="card card-learn">
+                        <i class="far fa-bookmark learn-card-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title learn-card-title">Tynker</h5>
+                            <p class="card-text">Their interactive story-based learning allows kids to learn the basics with easy block-based coding challenges before transitioning to real-world text-based languages.
+                            </p>
+                            <a href="https://www.tynker.com/" class="learn-card-link hvr-icon-forward" target="_blank"
+                                rel="noopener noreferrer">
+                                Learn More
+                                <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 4 -->
+                <div class="col hvr-wobble-vertical">
+                    <div class="card card-learn ">
+                        <i class="far fa-bookmark learn-card-icon"></i>
+                        <div class="card-body">
+                            <h5 class="card-title learn-card-title ">CodeMonkey</h5>
+                            <p class="card-text">CodeMonkey is a fun and educational game-based environment where kids learn to code without any prior experience.</p>
+                            <a href="https://www.codemonkey.com/" class="learn-card-link hvr-icon-forward"
+                                target="_blank" rel="noopener noreferrer">
+                                Learn More
+                                <i class="fas fa-arrow-right hvr-icon learn-more-icon"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -153,7 +142,7 @@
                     <h2>Visit us on GitHub!</h2>
                     <!-- Mentors Github links -->
                     <ul class="github-links">
-                       <li><a href="https://github.com/mmmangooo" target="_blank" aria-label="isabelle avatar"><img
+                        <li><a href="https://github.com/mmmangooo" target="_blank" aria-label="isabelle avatar"><img
                                     src="assets/images/isabelle.png" alt="mentor avatar"></a></li>
                         <li><a href="https://github.com/mariogusman" target="_blank" aria-label="mario avatar"><img
                                     src="assets/images/mario.png" alt="mentor avatar"></a></li>
