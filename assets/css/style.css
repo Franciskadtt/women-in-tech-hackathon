@@ -55,7 +55,7 @@ li.active>a {
 
 @media only screen and (min-width: 768px) {
 
-/* Logo For desktop: */
+    /* Logo For desktop: */
     .logo {
         padding-left: 50px;
         font-size: 36px;
@@ -231,6 +231,7 @@ https://codepen.io/Founts/pen/gmhcl */
 
 /* right bounce */
 @-webkit-keyframes bounceRight {
+
     0%,
     20%,
     50%,
@@ -271,6 +272,7 @@ https://codepen.io/Founts/pen/gmhcl */
 }
 
 @keyframes bounceRight {
+
     0%,
     20%,
     50%,
@@ -403,7 +405,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     font-size: 46px;
 }
 
-#mentor-section h4 {
+#mentor-section h4{
     font-weight: 700;
     color: #DE786F;
     font-size: 28px;
@@ -417,6 +419,27 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     box-shadow: 3px 3px 4px 2px #33333333;
 }
 
+.round {
+    width: 50px;
+    height: 50px;
+    background: #9CF23C;
+    border-radius: 50%;
+    float: left;
+    margin-right: -25px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.round1 {
+    width: 50px;
+    height: 50px;
+    background: #9CF23C;
+    border-radius: 50%;
+    float: left;
+    margin-right: -25px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
 /* -------------------- Form section */
 #form h2 {
     text-align: center;
@@ -425,6 +448,7 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     font-size: 40px;
     margin-bottom: 30px;
 }
+
 .submit-button {
     background-color: #9CF23C;
     color: #000000;
@@ -438,15 +462,17 @@ https://www.w3schools.com/howto/howto_css_flip_card.asp
     background-color: #DE786F;
     font-weight: 700;
 }
+
 .form-label {
     color: #DE786F;
 }
 
 .text-input:hover {
     border-color: #57039D;
-     -webkit-box-shadow: 3px 3px 4px 2px #33333333;
+    -webkit-box-shadow: 3px 3px 4px 2px #33333333;
     box-shadow: 3px 3px 4px 2px #33333333;
 }
+
 /* -------------------- Resources Page*/
 
 div .col {
