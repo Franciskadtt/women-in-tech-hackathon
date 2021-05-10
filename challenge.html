@@ -57,63 +57,73 @@
             </div>
         </nav>
     </header>
-    <main class="container my-5">
+    <main id="challenge-section" class="container my-5">
         <div class="row">
-            <div class="col-md-6" id="challenge-img">
-            </div>
-            <div class="col-md-6 mt-5">
+            <div class="col-12">
                 <h1 class="quiz">Coding Challenge</h1>
-                <p class="lead">Ready to tackle your first challenge as a young programmer? Take quiz now to learn some
-                    about
-                    programming. We suggest you use <a href="http://google.com" target="_blank"
-                        rel="noopener noreferrer">Google</a> to search for the answers. Much of a programmers's work
-                    include
-                    researching 😉</p>
-                <p class="lead">In this quiz we will talk about HTML and CSS. You can prepare for the quiz by clicking
-                    the icons
-                    below:</p>
-                <a href="https://www.google.com/search?q=HTML" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-html5 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
-                <a href="https://www.google.com/search?q=CSS" target="_blank" rel="noopener noreferrer"> <i
-                        class="fa fa-css3 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
             </div>
-            <!-- Quiz Container -->
+            <div class="circle"></div>
             <div class="row">
-                <div class="mt-5">
-                    <!-- Quiz embed tag from tryinteract.com -->
-                    <div class="interact_responsive_padding"
-                        style="padding:50.8% 0 0 0;position:relative;margin-bottom:5px;">
-                        <div class="interact_responsive_wrapper"
-                            style="height:100%;left:0;position:absolute;top:0;width:100%;">
-                            <iframe id="interactApp6095974eeaf4f60017e0b3dc" width="100%" height="100%"
-                                style="border:none;max-width:100%;margin:0;" allowTransparency="true" frameborder="0"
-                                src="https://quiz.tryinteract.com/#/6095974eeaf4f60017e0b3dc?method=iframe&mobile=1">
-                            </iframe>
+                <div class="col-12 col-lg-6">
+                    <img class="img-fluid z-depth-1 " src="assets/images/web-design.png">
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="lead">Ready to tackle your first challenge as a young programmer? Take quiz now to learn some about programming. We suggest you use <a href="http://google.com" target="_blank" rel="noopener noreferrer">Google</a> to search for the answers. Much of a programmers's work include researching 😉</p>
+                    <p class="lead">In this quiz we will talk about HTML and CSS. You can prepare for the quiz by clicking the icons below:</p>
+                    <a href="https://www.google.com/search?q=HTML" target="_blank" rel="noopener noreferrer"> <i class="fa fa-html5 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
+                    <a href="https://www.google.com/search?q=CSS" target="_blank" rel="noopener noreferrer"> <i class="fa fa-css3 fa-3x my-3 mx-3" aria-hidden="true"></i></a>
+                    <div class="triangle"></div>
+                </div>
+                <!-- Quiz Container -->
+                <div class="row" id="quiz">
+                    <div class="mt-5">
+                        <!-- Quiz embed tag from tryinteract.com -->
+                        <div class="interact_responsive_padding"
+                            style="padding:50.8% 0 0 0;position:relative;margin-bottom:5px;">
+                            <div class="interact_responsive_wrapper"
+                                style="height:100%;left:0;position:absolute;top:0;width:100%;">
+                                <iframe id="interactApp6095974eeaf4f60017e0b3dc" width="100%" height="100%"
+                                    style="border:none;max-width:100%;margin:0;" allowTransparency="true"
+                                    frameborder="0"
+                                    src="https://quiz.tryinteract.com/#/6095974eeaf4f60017e0b3dc?method=iframe&mobile=1">
+                                </iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <!-- Examples Container -->
-            <div class="row">
-                <div class="col justify-content-center text-center px-5">
-                    <h2>HTML Examples</h2>
-                    <p>Here you can see some exaples of HTML tags being used.<br>
-                        Notice how on the left side it is pure code, but on the right side it looks nice. This is the
-                        power of
-                        programming!</p>
-                    <p>All the websites on the internet, this one included, are built more or less like that.</p>
 
-                    <!-- Codesandbox embded code. Actual sandbox at https://codesandbox.io/s/misty-microservice-se8m2?file=/index.html-->
-                    <iframe
-                        src="https://codesandbox.io/embed/misty-microservice-se8m2?autoresize=1&codemirror=1&fontsize=16&hidenavigation=1&theme=dark"
-                        style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-                        title="misty-microservice-se8m2"
-                        allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-                        sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
-                    </iframe>
+                <!-- Examples Container -->
+                <div class="row">
+
+                    <div class="col px-5">
+                        <h2 class="quiz-h">HTML Examples</h2>
+                        <p class="challenge-p">Here you can see some exaples of HTML tags being used.<br>
+                            Notice how on the left side it is pure code, but on the right side it looks nice. This is
+                            the
+                            power of programming! All the websites on the internet, this one included, are built more or
+                            less like that.</p>
+
+
+                        <!-- Codesandbox embded code. Actual sandbox at https://codesandbox.io/s/misty-microservice-se8m2?file=/index.html-->
+                        <iframe
+                            src="https://codesandbox.io/embed/misty-microservice-se8m2?autoresize=1&codemirror=1&fontsize=16&hidenavigation=1&theme=dark"
+                            style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
+                            title="misty-microservice-se8m2"
+                            allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+                            sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts">
+                        </iframe>
+                    </div>
                 </div>
-            </div>
     </main>
+    <section>
+        <h3 class="challenge-mentor">Did you enjoy the challenge and want to meet a mentor? </h3>
+    <div class="challenge-btn-mentors-div">
+        <a class="btn btn-lg challenge-btn-mentors hvr-pulse" href="mentors.html" role="button">
+            Meet the Mentors
+        </a>
+    </div>
+    </section>
+
     <footer>
         <div class="container-fluid text-center" id="footer">
             <div class="row">
@@ -135,6 +145,7 @@
                 </div>
             </div>
         </div>
+
     </footer>
     <!-- Scripts -->
     <!-- Bootstrap -->
